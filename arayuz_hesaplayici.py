@@ -5,7 +5,7 @@ import pandas as pd
 # --- HTML/CSS KODLARI: ANA EKRANA EKLEME ÖZELLİĞİ İÇİN ---
 # Bu bölüm, uygulamanın bir PWA gibi davranmasını sağlayan etiketleri HTML'e ekler.
 manifest_url = "https://raw.githubusercontent.com/tunacvk00-boop/diyet-uygulama-ikon/refs/heads/main/manifest.json"
-icon_url = "blob:https://github.com/8af79aaa-8be8-48cc-9c99-4b13b8f03c44"
+icon_url = "https://raw.githubusercontent.com/tunacvk00-boop/diyet-uygulama-ikon/main/icon.png"
 
 pwa_html_tags = f'''
     <meta name="theme-color" content="#2d3748">
@@ -115,3 +115,4 @@ if st.sidebar.button('Hesapla', type="primary", use_container_width=True):
         else:
 
             st.warning("Bu kriterlere uygun hiçbir kombinasyon bulunamadı. Lütfen arama kriterlerinizi (özellikle değişim sınırlarını) genişletip tekrar deneyin.")
+
